@@ -11,6 +11,7 @@ yarn-error.log
 npm-debug.log
 yarn-error.log
 .env
+/images
 
 # OS-specific files
 .DS_Store
@@ -25,3 +26,7 @@ Thumbs.db
 /public/bundle.js
 /public/bundle.js.map
 /public/index.html
+
+
+# Private Key
+*.pem
