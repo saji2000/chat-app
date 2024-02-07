@@ -7,7 +7,7 @@ const AuthPage = (props) => {
     e.preventDefault();
     const { value } = e.target[0];
     axios
-      .post("http://3.147.61.203:3000/authenticate", { username: value })
+      .post("http://chatapplication.xyz:3000/authenticate", { username: value })
       .then((r) => props.onAuth({ ...r.data, secret: value }))
       .catch((e) => console.error(e));
   };
